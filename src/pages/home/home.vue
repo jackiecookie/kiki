@@ -5,11 +5,11 @@
       <router-link to="" tag="article" v-for="item in cookBook" class="recipe">
         <div>
           <div class="imgCover">
-            <img src="" :alt='item.name'>
+            <img :src="item.imageUrl" :alt='item.recipeName'>
           </div>
           <div class="content">
             <div class="recipeName">
-                {{item.name}}
+                {{item.recipeName}}
               </div>
           </div>
         </div>
