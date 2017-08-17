@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-var baseUrl = 'http://localhost:7002'
+var baseUrl = 'http://localhost:7001'
 
 export default async(url = '', data = {}, type = 'GET', method = 'fetch') => {
   type = type.toUpperCase()

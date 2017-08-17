@@ -22,7 +22,7 @@
     top: 0;
     @include wh(100%, 1.95rem);
     .head_title{
-      left: 45%;
+      left: 40%;
       position: absolute;
     }
   }
